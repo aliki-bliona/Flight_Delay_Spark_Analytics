@@ -36,6 +36,10 @@ As detailed in the report, the **DataFrame API** consistently outperformed RDDs 
     pip install -r requirements.txt
     ```
 3.  Load your dataset (ensure the path in the code matches your file location).
+    **Dataset Setup:**
+    * This project uses a specific flight dataset provided for the academic course.
+    * **Note:** Due to GitHub's file size limits, the dataset is not included in this repository.
+    * To run the code, please place your own flight data CSV file (e.g., `flights.csv`) in the project root directory and update the file path in the notebook if necessary.
 4.  Run all cells to execute the Spark jobs.
 
 ## 👥 Authors
